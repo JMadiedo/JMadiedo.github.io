@@ -65,7 +65,7 @@
                         render: 'int',
                         editable: {
                             type: 'int',
-                            min: 0, 
+                            min: -32756, 
                             max: 32756 
                         }
                     };
@@ -85,7 +85,7 @@
                         render: 'int',
                         editable: {
                             type: 'int',
-                            min: 0, 
+                            min: -32756, 
                             max: 32756 
                         }
                     };
@@ -193,7 +193,7 @@
                             render: 'int',
                             editable: {
                                 type: 'int',
-                                min: 0, 
+                                min: -32756, 
                                 max: 32756 
                             }
                         });
@@ -210,7 +210,7 @@
                             render: 'int',
                             editable: {
                                 type: 'int',
-                                min: 0, 
+                                min: -32756, 
                                 max: 32756 
                             }
                         });
