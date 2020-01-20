@@ -628,8 +628,8 @@
         $('#number-of-layers').change(function(){
             var $this = $(this);
             var value = parseInt($this.val(), 10);
-            if(isNaN(value) || value < 1) {
-                $this.val(1);
+            if(isNaN(value) || value < 0) {
+                $this.val(0);
                 $this.change();
                 return;
             }
@@ -649,7 +649,7 @@
                 var domSel = $('<select>');
                 var targetVal = previousValues[i]?previousValues[i]:3;
 
-                for(var j=2;j<8;j++) {
+                for(var j=1;j<8;j++) {
                     var domOpt = $('<option>').val(j).html(j);
                     if(j == targetVal) {
                         domOpt.attr('selected', 'selected');
